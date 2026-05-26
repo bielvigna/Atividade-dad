@@ -1,0 +1,14 @@
+Como a acessibilidade muda o trabalho de cada desenvolvedor
+Front-end
+É quem mais sente a mudança no dia a dia. A regra passa a ser: se existe uma tag específica para o que está sendo construído — botão, link, lista — usá-la. O HTML nativo sempre será mais acessível do que uma div estilizada. Além disso, toda funcionalidade precisa funcionar via teclado, atributos ARIA entram nos componentes customizados e critérios de aceitação acessíveis no backlog passam a orientar cada entrega. DEV CommunitySoftDesign
+Back-end
+A mudança é menos visual, mas igualmente concreta. As mensagens de erro da API precisam ser descritivas e consistentes, ajudando desenvolvedores e usuários a entenderem a natureza do problema sem recorrer a detalhes técnicos complexos. Isso importa diretamente para a acessibilidade: um erro genérico do servidor impede que o front-end exiba uma mensagem compreensível para quem usa leitor de tela ou tem dificuldade cognitiva. A API deve retornar erros claros para que o front consiga exibi-los corretamente ao usuário. DIOGitHub
+Dados
+A responsabilidade aqui está na estrutura e na semântica do que é entregue. Campos bem nomeados, dados separados em suas menores partes lógicas e respostas consistentes são o que permite que a interface — e as tecnologias assistivas — interpretem a informação corretamente. As APIs de acessibilidade dos sistemas operacionais intermediam a comunicação entre a tecnologia assistiva e as demais aplicações, e essa cadeia só funciona quando os dados que chegam têm estrutura, contexto e nomenclatura que fazem sentido de ponta a ponta. Medium
+
+Fontes:
+DEV Community — Rodrigues, P. S. Acessibilidade Web: Guia de boas práticas para interfaces inclusivas. Disponível em: https://dev.to/psrodrigs/acessibilidade-web-guia-de-boas-praticas-para-interfaces-inclusivas-4jjf
+SoftDesign. Testes de acessibilidade em produtos digitais. Disponível em: https://www.softdesign.com.br/blog/testes-de-acessibilidade/
+DIO — Pereira, D. 7 dicas práticas para o tratamento de erros em APIs REST. Disponível em: https://www.dio.me/articles/7-dicas-praticas-no-tratamento-de-erros-em-apis-rest
+GitHub / frontendbr. Integração de API com Front, quem deve lidar com os erros? Disponível em: https://github.com/frontendbr/forum/discussions/970
+Medium / Training Center — Gabos, L. Acessibilidade na internet — parte 2. Disponível em: https://medium.com/trainingcenter/acessibilidade-na-internet-parte-2-8345f2e3e30b
